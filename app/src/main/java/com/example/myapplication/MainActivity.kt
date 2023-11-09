@@ -85,9 +85,8 @@ fun Main() {
             )
             {
                 LazyColumn(modifier = Modifier.padding(top = 75.dp)) {
-//                    item { Box (modifier = Modifier.offset(x = 15.dp, y = 0.dp)) { LogoSection() } }
                     item {
-                        Box(modifier = Modifier.padding(horizontal = 15.dp, vertical = 20.dp)) {
+                        Box(modifier = Modifier.padding(horizontal = 15.dp, vertical = 10.dp)) {
                             Tags("MULTIPLAYER", "CLICKER", "PSYCHOLOGICAL HORROR", "COMMUNITY")
                         }
                     }
@@ -95,7 +94,7 @@ fun Main() {
                         Box(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .padding(horizontal = 20.dp, vertical = 30.dp)
+                                .padding(horizontal = 20.dp, vertical = 15.dp)
                         ) {
                             Description()
                         }
