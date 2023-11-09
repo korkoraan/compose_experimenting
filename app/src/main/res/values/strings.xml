@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="top_image_content_desc">this is top image</string>
+    <string name="text">Dota 2 is a multiplayer online battle arena(MOBA) game
+        which has two teams of five players compete to collectively destroy a large structure
+        defended by the opposing team known as the "Ancient", whilst defending their own</string>
+    <string name="install_btn_text">Install</string>
+    <string name="review_and_ratings_headline">Review &amp; Ratings</string>
+</resources>
